@@ -40,7 +40,7 @@ spring:
   oauth2:
     client:
       accessTokenUri: http://auth-server:9999/uaa/oauth/token
-      userAuthorizationUri: http://104.155.78.26:9999/uaa/oauth/authorize
+      userAuthorizationUri: http://my-auth-server:9999/uaa/oauth/authorize
     resource:
           userInfoUri: http://auth-server:9999/uaa/user
   rabbitmq:
