@@ -41,3 +41,11 @@ eureka:
   instance:
     hostname: ${vcap.application.uris[0]}
     nonSecurePort: 80
+
+---
+spring:
+  profiles: container-engine
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka:8761/eureka/
