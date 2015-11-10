@@ -42,7 +42,7 @@ spring:
       accessTokenUri: http://auth-server-svc:9999/uaa/oauth/token
       userAuthorizationUri: http://my-auth-server:9999/uaa/oauth/authorize
     resource:
-          userInfoUri: http://auth-server:9999/uaa/user
+          userInfoUri: http://auth-server-svc:9999/uaa/user
   rabbitmq:
     host: rabbitmqsvc-svc
     port: 5672
